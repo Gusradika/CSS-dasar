@@ -1,0 +1,14 @@
+body {
+    font-family : arial;
+}
+
+h1 {
+    color: skyblue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p {
+    color: grey;
+    line-height: 1.6em;
+}
