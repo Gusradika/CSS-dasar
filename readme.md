@@ -1,3 +1,20 @@
+<p align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width="70">
+  <br>
+  <b>CSS Dasar</b>
+</p>
+<hr>
+Basic CSS Learning
+
+Repo ini digunakan untuk pembelajaran CSS tingkat dasar (Pemula).
+akan ada beberapa bagian dan pendefinisian beberapa Tags element dan lain sebagainya.
+untuk Keterangan dan point-point penting. silahkan cek File Word. untuk deskripsi file
+silahkan buka code di setiap Folder.
+
+##Sumber Pembelajaran : WEB PROGRAMING UNPAS | Sandhika Galih
+
+
+
 <!--
 **** ada 3 cara menggunakan CSS ****
 
