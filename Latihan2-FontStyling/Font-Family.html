@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML External CSS</title>
+    <link rel="stylesheet" href="font-family.css">
+</head>
+<body>
+
+    <!--Apa itu generic font? 
+        secara umum jika kita menuliskan Properti font family dalam CSS
+        kita dapat menuliskan lebih dari 1 font family didalamnya. nah
+        cara dan prosedur yang akan dipakai adalah dia akan mengecek
+        apakah OS dari user memiliki font yang pertama? jika iya maka
+        font yang pertama akan digunakan. jika tidak dia akan menggunakan
+        font yang kedua. dan ketiga dan seterusnya
+        
+        CSS :
+        h1 {
+            font-family: arial, verdana, sans-serif;
+        }
+
+        Sans Serif  : adalah font2 yang tidak memiliki kaki (Not Serif)
+        Serif       : adalah font2 yang memiliki kaki
+
+        font-size (px, em, %)   : digunakan untuk menentukan ukuran
+            
+        font-weight (lighter, normal, 100-900, bold, bolder)
+        
+        font-variant : (small-caps, normal) Small caps adalah atribut yang unik
+        jika huruf text adalah huruf kecil maka dia akan kapital tetapi tanpa merubah ukurannya
+        sangat cocok untuk Landing page dll
+
+        font-style : (normal, italic, oblique) oblique digunakan untuk memiringkan text dengan cara memaksa
+        karena cara kerja italic sendiri adalah OS kita akan mengecek font-family arial(misal)
+        apakah memiliki keluarga italic? jika iya maka akan menggunakan arial-italic jiak tidak maka
+        kita dapat menggunakan oblique atau pemaksaan kepada font yang tidak memiliki italic sehingga
+        menjadi italic
+
+        line-height : (normal, 00px, 00em) Mengatur jarak antar paragraf
+
+        **** CSS Font Shorthand ****
+
+        jika kita semisal mendeklarasikan properties dari CSS dengan cara biasa :
+        h1 {
+            font-family : Arial, verdana, sans-serif;
+            font-size: 100px;
+            font-weight: normal;
+            font-variant: small-caps;
+            font-style: italic;
+        }
+
+        maka kita juga dapat menggunakan cara Shorthand untuk itu semua
+        SHORTHAND METHOD HARUS SESUAI URUTAN : berikut urutannya
+        h1 {
+            font : FONT-STYLE FONT-VARIANT FONT-WEIGHT FONT-SIZE/LINE-HEIGHT FONT-FAMILY,FONT-FAMILY;
+        }
+
+        atau contoh asli :
+        h1 {
+            font : italic small-caps normal 16px/16px arial,verdana;
+        }
+
+        atau properti yang opsional dan properti yang wajib
+        FONT-STYLE : OPT
+        FONT-VARIANT : OPT
+        FONT-WEIGHT : OPT
+        FONT-SIZE : REQUIRED
+        LINE-HEIGHT : OPT
+        FONT-FAMILY : REQUIRED
+
+        maka kita dapat menuliskannya seperti :
+        h1 {
+            font : 16px arial,sans-serif;
+        }
+    -->
+
+        <h1>Hello World (Font-Family)</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed est vehicula est tincidunt ornare vel id enim. Sed
+        a rutrum quam. Donec vestibulum pulvinar justo eu euismod. Curabitur eleifend ipsum urna, at accumsan nisi laoreet id.
+        Etiam pulvinar porttitor justo, ut aliquet odio sodales at. Nulla eu ultrices mauris, a placerat lectus. Nulla sit amet
+        mi sed augue rhoncus ornare quis eu nulla. Maecenas viverra, mi quis tempus luctus, velit libero fermentum leo, nec
+        convallis lorem diam ut lorem. Suspendisse eu mattis felis. Integer convallis justo nec tempor congue. Ut diam magna,
+        blandit quis enim vitae, pharetra elementum nisl. Cras est mauris, semper tincidunt maximus et, fermentum sit amet
+        risus. Integer nulla ex, semper sed efficitur sit amet, tincidunt vel neque.</p>
+</body>
+</html>
