@@ -13,8 +13,6 @@ silahkan buka code di setiap Folder.
 
 ##Sumber Pembelajaran : WEB PROGRAMING UNPAS | Sandhika Galih
 
-
-
 <!--
 **** ada 3 cara menggunakan CSS ****
 

@@ -1,0 +1,15 @@
+h1 {
+    font-size: 60px;
+    color: skyblue;
+    text-transform: uppercase;
+}
+
+p {
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+a{
+    text-decoration: none;
+}
