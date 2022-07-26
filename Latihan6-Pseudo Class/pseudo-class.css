@@ -1,0 +1,38 @@
+body{
+    font-family: arial;
+}
+
+.hello:link {
+    font-size: 20px;
+    text-decoration: none;
+    color:orange;
+}
+
+.hello:hover {
+    font-size: 25px;
+    text-decoration: line-through;
+    color: red;
+    
+}
+
+.hello:active{
+    font-style: italic;
+    color: green;
+}
+
+li:nth-child(3n) a{
+    color: green;
+}
+
+li:nth-child(odd) a:hover {
+    color: red;
+}
+
+li:nth-child(even) a:hover {
+    color: skyblue;
+}
+
+p:first-of-type {
+    color: yellow;
+}
+
