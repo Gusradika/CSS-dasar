@@ -1,0 +1,27 @@
+body {
+    font-family:arial;
+}
+
+#p1 {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+.favorit {
+    color:skyblue;
+}
+
+ul#sarapan li.favorits {
+    color: red;
+}
+
+ul#sarapan li{
+    color:yellowgreen;
+}
+
+p {
+    color: blue;
+}
